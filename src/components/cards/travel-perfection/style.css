@@ -1,0 +1,87 @@
+.header-travel-perfection {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.header-travel-perfection .info .title {
+    color: #344054;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-travel-perfection .info .title .text {
+    color: #0088FF;
+}
+
+.header-travel-perfection .info .subheading {
+    color: #424855;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    width: 556px;
+    height: 44px;
+}
+
+.travel-perfection-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.travel-perfection-cards .card {
+    height: 238px;
+    width: 274px;
+}
+
+.travel-perfection-cards .card .details{
+    height: 158px;
+    width: 244px;
+    margin: 40px 25px 40px 15px;
+}
+
+.travel-perfection-cards .card .details .icon{
+    height: 64px;
+    width: 64px;
+    border-radius: 16px;
+    background: #F0F8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.travel-perfection-cards .card .details .icon .svg-icon{
+    width: 42px;
+    height: 42px;
+    color: #0088FF;
+}
+
+.travel-perfection-cards .card .details .text{
+    margin-top: 16px;
+    color: #344054;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.travel-perfection-cards .card .details .info{
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}

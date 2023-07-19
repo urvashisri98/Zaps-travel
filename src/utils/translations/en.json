@@ -1,0 +1,98 @@
+{
+    "login": {
+        "loginTitle": "Login",
+        "loginMetaTitle": "Please login to continue",
+        "InputTitleMobile": "Mobile Number",
+        "placeholderMobile": "Enter Mobile Number",
+        "InputTitleEmailId": "Email ID",
+        "placeholderEmailId": "Enter Email ID",
+        "InputTitlePassword": "Password",
+        "placeholderPassword": "Enter Password",
+        "continue": "Continue",
+        "bottomTitle1": "By continuing, you agree to Zap travels ",
+        "bottomTitle2": "privacy policy",
+        "bottomTitle3": "terms of use.",
+        "forgotPassword": "Forgot Password",
+        "dontHaveAccount": "Don't have an account ?",
+        "registerHere": "Register here"
+    },
+    "signup": {
+        "registrationTitle": "Registration",
+        "registrationMetaTitle": "Please enter info to create account",
+        "InputTitleMobile": "Mobile Number",
+        "placeholderMobile": "Enter Mobile Number",
+        "InputTitleFirstName": "First Name",
+        "placeholderFirstName": "Enter First Name",
+        "InputTitleLastName": "Last Name",
+        "placeholderLastName": "Enter Last Name",
+        "InputTitleEmailId": "Email ID",
+        "placeholderEmailId": "Enter Email ID",
+        "registerButton": "Register",
+        "backToLoginButton": "Back to Login"
+    },
+    "otp": {
+        "otpTitle": "OTP",
+        "otpMetaTitle": "Please enter the OTP sent to your phone number",
+        "otpMetaTitle2": "+91****482",
+        "expireIn": "Expire in",
+        "time": "04:59",
+        "didNotGetOtp": "Didn't get an OTP?",
+        "resendNow": "Resend Now",
+        "submit": "Submit",
+        "changeNumber": "Change Number",
+        "changeEmailId": "Change Email ID"
+    },
+    "registration": {
+        "registrationTitle": "Registration",
+        "registrationMetaTitle": "Please enter info to create account",
+        "InputTitleEmailId": "Email ID",
+        "placeholderEmailId": "Enter Email ID",
+        "InputTitleFirstName": "First Name",
+        "placeholderFirstName": "Enter First Name",
+        "InputTitleLastName": "Last Name",
+        "placeholderLastName": "Enter Last Name",
+        "InputTitleMobile": "Mobile Number",
+        "placeholderMobile": "Enter Mobile Number",
+        "InputTitlePassword": "Password",
+        "placeholderPassword": "Enter Password",
+        "InputTitleConfirmPassword": "Confirm Password",
+        "placeholderConfirmPassword": "Enter confirm password",
+        "registerButton": "Register",
+        "backToLoginButton": "Back to Login"
+    },
+    "validations": {
+        "signup/login": {
+            "emailRequired": "Email is required",
+            "validEmail": "Enter a valid email",
+            "phoneNumberRequired": "Phone number is required",
+            "validPhoneNumber": "Enter a valid phone number",
+            "firstNameRequired": "First Name is required",
+            "lastNameRequired": "Last Name is required",
+            "minFirstNameLength": "First name must contain at least 1 character",
+            "maxFirstNamelength": "First name should not exceed more than 20 characters",
+            "minLastNameLength": "Last name must contain at least 1 character",
+            "maxLastNamelength": "Last name should not exceed more than 20 characters",
+            "validFirstName": "First name should contain only alphabets",
+            "validLastName": "Last name should contain only alphabets",
+            "passwordRequired": "Password is required",
+            "validPassword": "The password must be 8 characters long and contain at least one upper case, one lower case, and one special character",
+            "passwordMustMatch": "Passwords must match"
+        }
+    },
+    "header":{
+        "customerSupport":"Customer Support",
+        "faq":"FAQ",
+        "login/signup":"Login/Signup"
+    },
+    "viewPage":{
+        "helpingOthers":"Helping Others",
+        "live&travel":"Live & Travel",
+        "specialOfferToSuitYou":"Special Offer to suit you plan"
+    },
+    "subscribeLetter":{
+        "getTheLatestNewsAndOffers":"Get the latest news and offers",
+        "subscribeToOurNewsletter":"Subscribe to our newsletter",
+        "subscribe":"Subscribe",
+        "enterEmailId":"Enter your Email Id"
+    }
+}

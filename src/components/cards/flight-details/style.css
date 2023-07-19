@@ -1,0 +1,292 @@
+  .DailogBoxContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .dailogBox {
+    background-color: white;
+    width: 523px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato";
+  }
+  .dailogFirstDivider {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+    gap: 25px;
+  }
+  
+  .DailogBoxFlightDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: "#344054";
+  }
+  .flightDetailsHeading {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .departureArrivalTime {
+    display: flex;
+    justify-content: space-between;
+  }
+  .departureArrival {
+    display: flex;
+    flex-direction: column;
+  }
+  .fromTo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .totalduration {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+  }
+  .duration {
+    font-size: 12px;
+    font-weight: 400;
+    color: "#667085";
+  }
+  .durationtime {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .partiallyRefundable {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+    gap: 5px;
+    align-items: end;
+  }
+  .priceButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px 15px;
+    gap: 25px;
+    align-items: center;
+  }
+  .continueButton {
+    background-color: #0088ff;
+    padding: 18px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .continueButton:hover {
+    background-color: white;
+    float: left;
+    padding: 17px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #0088ff;
+    border: 1px solid #0088ff;
+    cursor: pointer;
+  }
+  .PriceWithButton {
+    display: flex;
+    flex-direction: column;
+  }
+  .totalPriceIcon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+  }
+  .price {
+    font-size: 20px;
+    font-weight: 800;
+    color: #344054;
+  }
+  .changeFlight {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+  }
+  .flightRoot {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .fromAirportToAirportWith {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+  }
+  .timeWithDate {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  
+  .airportName {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+  .timepop {
+    font-size: 14px;
+    font-style: 600;
+  }
+  .datepop {
+    font-size: 12px;
+    font-size: 400;
+    color: #667085;
+  }
+  .timeTaken {
+    background-color: #eaf5ff;
+    padding: 6px;
+    width: auto;
+    height: 35px;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    color: #0088ff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .baggageWithImage {
+    display: flex;
+    font-size: 14px;
+    font-family: "Lato";
+    align-items: center;
+    gap: 10px;
+  }
+  .baggageWithWeight {
+    display: flex;
+    flex-direction: column;
+  }
+  .baggages {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .airportWithPlace {
+    display: flex;
+    flex-direction: column;
+  }
+  .layover {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+  }
+  .arrivalAirportName {
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+  }
+  .departureAirportTerminal {
+    font-size: 12px;
+    font-weight: 400;
+    color: #344054;
+  }
+  .departureAirportName {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .arrivalLayover {
+    gap: 7px;
+    display: flex;
+    font-size: 12px;
+    background-color: #fff7ea;
+    height: 4vh;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .border {
+    display: flex;
+  }
+  .changePlanes {
+    color: #ffa400;
+  }
+  .flightNameWithClass {
+    display: flex;
+    gap: 10px;
+    font-family: "Lato";
+  }
+  
+  .flightNameWithCode {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .blockerflightPopup {
+    width: 2px;
+    height: 14.7px;
+  
+    background: #dddddd;
+    display: flex;
+    align-items: center;
+  }
+  .className {
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+  }
+  .airplaneName {
+    font-weight: 700;
+  }
+  .flightCode {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 14px;
+  }
+  .fareDetails {
+    background-color: #eaf5ff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 30px 16px;
+    gap: 22px;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    bottom: 82px;
+  }
+  .fareDetailsPrices {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Lato;
+    height: 4vh;
+  }
+  .charges {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 9px;
+  }
+  .fareMoney {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .taxesFeesText {
+    font-size: 12px;
+    color: #667085;
+    font-weight: 400;
+  }
+  

@@ -1,0 +1,309 @@
+.section2 {
+    height: 172px;
+    width: 1140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.section2 .search-hotel {
+    width: 420px;
+    height: 112px;
+    border-radius: 12px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    margin: 30px 0px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.section2 .search-hotel .title {
+    width: 380px;
+    height: 17px;
+    color: #667085;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px 16px 0px 16px;
+}
+
+.section2 .search-hotel .input-search-hotel {
+    width: 380px;
+    height: 24px;
+    color: #667085;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 16px 0px 14px;
+}
+
+.section2 .search-hotel .input-search-hotel .text {
+    color: #344054;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.section2 .search-hotel .input-search-hotel .text::placeholder {
+    color: #344054;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2 .search-hotel .input-search-hotel .text:focus {
+   outline: none;
+}
+
+.section2 .search-hotel .input-search-hotel .text:focus::placeholder {
+    color: transparent;
+}
+
+.section2 .search-hotel .country {
+    width: 380px;
+    height: 17px;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px 16px 0px 16px;
+}
+
+
+.section2 .check-in {
+    width: 164px;
+    height: 112px;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 12px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+}
+
+.section2 .check-in .check-in-title{
+    width: 132px;
+    height: 18px;
+    margin: 20px 16px 0px 16px;
+    display: flex;
+}
+
+.section2 .check-in .check-in-title .text {
+    color: #667085;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section2 .check-in .check-in-title .calendar-icon {
+    width: 18px;
+    height: 18px;
+    color: #344054;
+    margin-left: 50px;
+}
+
+.section2 .check-in .check-in-desc{
+    width: 132px;
+    height: 34px;
+    margin: 0px 16px 0px 16px;
+}
+
+.section2 .check-in .check-in-date{
+    width: 132px;
+    height: 29px;
+    margin: 0px 16px 0px 16px;
+    color: #344054;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2 .check-in .check-in-date .text {
+    color: #344054;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.section2 .check-in .check-in-day{
+    width: 132px;
+    height: 17px;
+    margin: 0px 16px 0px 16px;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section2 .check-out {
+    width: 164px;
+    height: 112px;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-radius: 12px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+}
+
+.section2 .check-out .check-out-title{
+    width: 132px;
+    height: 18px;
+    margin: 20px 16px 0px 16px;
+    display: flex;
+}
+
+.section2 .check-out .check-out-title .text {
+    color: #667085;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section2 .check-out .check-out-title .calendar-icon {
+    width: 18px;
+    height: 18px;
+    color: #344054;
+    margin-left: 40px;
+}
+
+.section2 .check-out .check-out-desc{
+    width: 132px;
+    height: 34px;
+    margin: 0px 16px 0px 16px;
+}
+
+.section2 .check-out .check-out-date{
+    width: 132px;
+    height: 29px;
+    margin: 0px 16px 0px 16px;
+    color: #344054;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2 .check-out .check-out-date .text {
+    color: #344054;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.section2 .check-out .check-out-day{
+    width: 132px;
+    height: 17px;
+    margin: 0px 16px 0px 16px;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section2 .user-info {
+    width: 164px;
+    height: 112px;
+    margin: 30px 0px 30px 0px;
+    border-radius: 12px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+}
+
+.section2 .user-info .dropdown{
+    width: 132px;
+    height: 72px;
+    margin: 20px 16px 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.section2 .user-info .dropdown .content1{
+    width: 132px;
+    height: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.section2 .user-info .dropdown .content1 .dropdown-title{
+    width: 103px;
+    height: 18px;
+    color: #667085;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section2 .user-info .dropdown .content1 .dropdown-icon{
+    width: 18px;
+    height: 18px;
+}
+
+.section2 .user-info .dropdown .content2{
+    width: 132px;
+    height: 29px;
+    color: #344054;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section2 .user-info .dropdown .content2 .text {
+    color: #344054;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.section2 .search-hotel-button {
+    width: 104px;
+    height: 104px;
+    border-radius: 106px;
+    background: #08F;
+    margin-top: 4px;
+    display: flex;
+    margin: 30px 30px 30px 0px;
+}
+
+.section2 .search-hotel-button .search-icon {
+   width: 40px;
+   height: 40px;
+   color: #fff;
+   margin: 30px 30px;
+}

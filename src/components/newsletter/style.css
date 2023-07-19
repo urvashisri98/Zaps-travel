@@ -1,0 +1,149 @@
+.newsletter-container {
+    width: 1408px;
+    height: 379px;
+    background-image: url('../../images/newsletter.png');
+    position: relative;
+}
+
+.newsletter-container .newsletter-header {
+    position: absolute;
+    display: flex;
+    width: 395px;
+    flex-direction: column;
+    color: #344054;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 522px;
+    margin-top: 112px;
+}
+
+.newsletter-container .newsletter-header .highlight {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.newsletter-container .user-input {
+    position: absolute;
+    width: 521px;
+    height: 56px;
+    margin-left: 459px;
+    margin-top: 211px;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.newsletter-container .user-input .email-input{
+    width: 396px;
+    height: 56px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: inline-flex;
+    gap: 8px;
+}
+
+.newsletter-container .user-input .email-input-error{
+    width: 396px;
+    height: 56px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: inline-flex;
+    gap: 8px;
+    border: 1px solid red;
+}
+
+
+.newsletter-container .user-input .email-input .email-icon{
+    width: 20px;
+    height: 20px;
+    margin: 16px 0px 16px 16px;
+    color: #344054;
+}
+
+.newsletter-container .user-input .email-input input{
+    width: 336px;
+    height: 24px;
+    margin: 12px 0px 16px 0px;
+    color: #667085;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.newsletter-container .user-input .email-input input::placeholder {
+    color: #667085;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.newsletter-container .user-input .email-input input:focus {
+   outline: none;
+}
+
+.newsletter-container .user-input .email-input input:focus::placeholder {
+    color: transparent;
+}
+
+.newsletter-container .user-input .subscribe-button {
+    width: 109px;
+    height: 49px;
+    margin-top: 3px;
+    border-radius: 14px;
+    background: #08F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.newsletter-container .user-input .subscribe-button .text {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email-input-error .email-icon{
+    width: 20px;
+    height: 20px;
+    margin: 16px 0px 16px 16px;
+    color: #344054;
+}
+
+.email-input-error input{
+    width: 336px;
+    height: 24px;
+    margin: 12px 0px 16px 0px;
+    color: #667085;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.email-input-error input::placeholder {
+    color: #667085;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.email-input-error input:focus {
+   outline: none;
+}
+
+.email-input-error input:focus::placeholder {
+    color: transparent;
+}

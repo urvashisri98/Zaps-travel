@@ -1,0 +1,177 @@
+.domestic-search-card {
+    height: 197px;
+    width: 407px;
+    border-radius: 8px;
+    border: 1px solid #08F;
+    background: #FBFDFF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    cursor: pointer;
+    margin: 0px 16px 16px 16px;
+}
+
+.domestic-search-details {
+    margin: 24px 16px 16px 16px;
+    height: 89px;
+    border-bottom: 1px solid #D0D5DD;
+    display: inline-flex;
+    gap: 18px;
+}
+
+.domestic-search-details .content1{
+    height: 73px;
+    width: 61px;
+    display: flex;
+    flex-direction: column;
+}
+
+.domestic-search-airline-icon {
+    width: 34px;
+    height: 30px;
+    margin-left: 12px;
+}
+
+.domestic-search-airline-name {
+    color: #344054;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 9px;
+}
+
+.domestic-search-airline-code {
+    color: #667085;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.domestic-search-details .content2{
+    margin-top: 17px;
+    height: 39px;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.domestic-search-time {
+    color:  #344054;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.domestic-search-city {
+    color: #667085;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.domestic-search-details .content3{
+    margin-top: 17px;
+    height: 39px;
+    width: 129px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.domestic-search-time-taken {
+    display: inline-flex;
+    gap: 4px;
+    color: #344054;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.domestic-search-way {
+    display: inline-flex;
+    gap: 8px;
+}
+
+.domestic-search-way-text {
+    color: #1DAC08;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 6px
+}
+
+.domestic-search-plane-line-icon{
+    margin-top: 7px;
+    margin-left: -12px
+}
+
+.domestic-search-details .content4{
+    margin-top: 17px;
+    height: 39px;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.domestic-search-bottom {
+    height: 44px;
+    margin: 0px 16px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: calc(100% - 32px);
+}
+
+.domestic-search-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.domestic-search-baggage-options {
+    color: #667085;
+    display: inline-flex;
+    font-weight: 400;
+    gap: 4px;
+}
+
+.domestic-search-baggage-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.domestic-search-details-bottom {
+    color: #08F;
+    font-weight: 500;
+}
+
+.domestic-search-price-details {
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.domestic-search-price-info {
+    display: inline-flex;
+    color: #667085;
+    gap: 4px;
+    font-size: 12px;
+}
+
+.domestic-search-info-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.domestic-search-price {
+    color: #344054;
+    font-size: 20px;
+    font-weight: 800;
+}

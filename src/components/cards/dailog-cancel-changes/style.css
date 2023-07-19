@@ -1,0 +1,51 @@
+.cancel-changes-container{
+  display: flex;
+  justify-content: center;
+}
+.cancel-changes-dailogBox{
+  background-color: white;
+  width: 523px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+  gap:16px;
+}
+.cancel-changes-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fare-rules{
+  font-size: 16px;
+  font-weight: 700;
+}
+.cancellation-datechanges-charges{
+  width: 70%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+ }
+.cancellation-charges{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 20px;
+  background-color: #F2F7FB;
+  height: 7vh;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.date-changes-charges{
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 20px;
+  background-color: #F2F7FB;
+  height: 7vh;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

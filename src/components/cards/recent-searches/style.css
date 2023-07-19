@@ -1,0 +1,150 @@
+.title {
+    width: inherit;
+    height: 31px;
+    color: #344054;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.title .text {
+    color: #0088FF;
+}
+
+.recent-search-cards {
+    height: 174px;
+    width: inherit;
+    display: flex;
+    gap: 15px;
+}
+
+.recent-search-cards .recent-search-card {
+    width: 274px;
+    height: 174px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 2px 32px 0px rgba(0, 0, 0, 0.12);
+}
+
+.recent-search-cards .recent-search-card .recent-search-time {
+    color:  #525A6A;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px 16px 12px 0px;
+    text-align: end;
+}
+
+.recent-search-cards .recent-search-card .recent-search-content {
+    width: inherit;
+    height: 84px;
+    display: flex;
+}
+
+.recent-search-cards .recent-search-card .recent-search-content .recent-search-details {
+    width: 222px;
+}
+
+.recent-search-cards .recent-search-card .recent-search-content .recent-search-flight-side-card {
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+    background: #08F;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-search-cards .recent-search-card .recent-search-content .recent-search-flight-side-card .recent-search-flight-icon{
+    height: 24px;
+    width: 24px;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    color: #FFFFFF;
+}
+
+.recent-search-cards .recent-search-card .recent-search-trip-type {
+    height: 14px;
+    color: #344054;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 8px 16px;
+}
+
+.recent-search-cards .recent-search-card .recent-search-city-details {
+    height: 17px;
+    margin: 0px 0px 8px 16px;
+    display: flex;
+}
+
+.recent-search-cards .recent-search-card .recent-search-city-details .recent-search-flight-icon{
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.recent-search-cards .recent-search-card .recent-search-city-details .recent-search-from-city{
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.recent-search-cards .recent-search-card .recent-search-city-details .recent-search-to-city{
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.recent-search-cards .recent-search-card .recent-search-city-details .recent-search-arrow-icon {
+    height: 16px;
+    width: 16px;
+    margin: 0px 6px;
+}
+
+.recent-search-cards .recent-search-card .recent-search-date {
+    margin: 0px 0px 8px 16px;
+    color: #08F;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recent-search-cards .recent-search-card .recent-search-flight-details {
+    margin: 0px 0px 8px 16px;
+    color: #525A6A;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recent-search-cards .recent-search-card .recent-search-button {
+    color: #08F;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: end;
+    margin: 8px 16px 16px 0px;
+}
+
+

@@ -1,0 +1,281 @@
+.search-flight-field {
+    height: 112px;
+    width: 392px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.search-flight-field .from {
+    height: 56px;
+    width: 392px;
+    border-radius: 12px 12px 0px 0px;
+    border: 1px solid #D0D5DD;
+    border-bottom: none;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+}
+
+.search-flight-field .from .from-flight-icon {
+    height: 24px;
+    width: 24px;
+    margin: 16px 0px 16px 16px;
+}
+
+.search-flight-field .from .text {
+    width: 332px;
+    height: 24px;
+    margin: 16px 16px 16px 8px;
+    color: #222936;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 24px;
+    border: none
+}
+
+.search-flight-field .from .text::placeholder {
+    color: #222936;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.search-flight-field .from .text:focus {
+   outline: none;
+}
+
+.search-flight-field .from .text:focus::placeholder {
+    color: transparent;
+}
+
+.search-flight-field .from .from-class-options-group {
+    position: absolute;
+    width:392px;
+    height: 355px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 57px;
+    overflow: scroll;
+    z-index: 152;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search-flight-field .from .from-class-options-group .from-class-option-group-card {
+    width: 360px;
+    height: 323px;
+    margin: 16px 0px 0px 16px
+}
+
+.search-flight-field .from .from-class-options-group .from-class-option-group-card label {
+    color:  #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.search-flight-field .from .from-class-options-group .from-class-option-group-card .from-class-option {
+    width: 360px;
+    height: 37px;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 24px;
+    display: flex;
+}
+
+.search-flight-field .from .from-class-options-group .from-class-option-group-card .from-class-option .from-flight-icon {
+    width: 24px;
+    height: 24px;
+    color: #344054;
+    margin-top: 6.5px;
+    margin-left: -0.1px;
+}
+
+.search-flight-field .from .from-class-options-group .from-class-option-group-card .from-class-option .from-text-box {
+    width: 280px;
+    height: 37px;
+    margin-left: 12px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+ .search-flight-field .from .from-class-options-group .from-class-option-group-card .from-class-option .from-code {
+    width: 36px;
+    height: 22px;
+    margin-top: 7.5px;
+    border-radius: 2px;
+    background: #EEF7FF;
+}
+
+.search-flight-field .from .from-class-options-group .from-class-option-group-card .from-class-option .from-code div {
+    background: #EEF7FF;
+    color: #08F;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px
+}
+
+.search-flight-field .swap-icon {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    margin-top: -14px;
+    margin-left: 338px;
+    border: 1px solid #D1D6DE;
+    background: #FFF;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.search-flight-field .swap-icon .swap-horiz-icon {
+    color: #0088FF;
+    transform: rotate(90deg);
+}
+
+.search-flight-field .to{
+    height: 56px;
+    width: 392px;
+    border-radius: 0px 0px 12px 12px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+}
+
+.search-flight-field .to .to-flight-icon {
+    height: 24px;
+    width: 24px;
+    margin: 16px 0px 16px 16px;
+}
+
+.search-flight-field .to .text {
+    width: 332px;
+    height: 24px;
+    margin: 16px 16px 16px 8px;
+    color: #222936;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 24px;
+    border: none
+}
+
+.search-flight-field .to .text::placeholder {
+    color: #222936;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.search-flight-field .to .text:focus {
+   outline: none;
+}
+
+.search-flight-field .to .text:focus::placeholder {
+    color: transparent;
+}
+
+.search-flight-field .to .to-class-options-group {
+    position: absolute;
+    width:392px;
+    height: 355px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 57px;
+    overflow: scroll;
+    z-index: 152;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card {
+    width: 360px;
+    height: 323px;
+    margin: 16px 0px 0px 16px
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card label {
+    color:  #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card .to-class-option {
+    width: 360px;
+    height: 37px;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 24px;
+    display: flex;
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card .to-class-option .to-flight-icon {
+    width: 24px;
+    height: 24px;
+    color: #344054;
+    margin-top: 6.5px;
+    margin-left: -0.1px;
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card .to-class-option .to-text-box {
+    width: 280px;
+    height: 37px;
+    margin-left: 12px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card .to-class-option .to-code {
+    width: 36px;
+    height: 22px;
+    margin-top: 7.5px;
+    border-radius: 2px;
+    background: #EEF7FF;
+}
+
+.search-flight-field .to .to-class-options-group .to-class-option-group-card .to-class-option .to-code div {
+    background: #EEF7FF;
+    color: #08F;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px
+}
+
+.source-destination-error {
+    margin-left: 4px;
+}

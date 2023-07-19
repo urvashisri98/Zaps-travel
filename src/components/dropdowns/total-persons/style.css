@@ -1,0 +1,40 @@
+.total-persons {
+    height: 55px;
+    width: inherit;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;    
+    display: flex;
+    gap: 8px;
+    position: relative;
+}
+
+.total-persons-icon {
+    height: 16px;
+    width: 16px;
+    margin: 16px 0px 12px 8px;
+    align-items: center;
+}
+
+.total-persons-dropdown {
+    height: 17px;
+    width: calc(100% - 40px);
+    margin: 18px 8px 18px 8px;
+    background: #FFF;
+    display: flex;
+}
+
+.total-persons-dropdown-label {
+    height: 17px;
+    width: calc(100% - 30px);
+    color: #222936;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.total-persons-dropdown-icon {
+    height: 16px;
+    width: 16px;
+    color: #344054;
+    margin-right: 8px;
+}

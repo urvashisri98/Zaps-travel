@@ -1,0 +1,42 @@
+.contactDetails-card{
+    display: flex;
+    width: 668px;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.contactDetails-ticket-text{
+color: var(--subheading, #525A6A);
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 50px;
+margin-top: -10px;
+
+}
+
+.addcontacts-head{
+    color: var(--heading, #344054);
+font-size: 16px;
+font-family: Lato;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.add-mobile-container h5 {
+    color: var(--gray-700, #344054);
+/* Text sm/Medium */
+font-size: 14px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+}

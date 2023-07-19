@@ -1,0 +1,116 @@
+.flightResultHeader {
+    padding: 25px 100px 25px 100px;
+    background-repeat: no-repeat;
+  }
+  .flightResultHeaderContainer {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #eaf5ff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .flightResultHeaderDivider1 {
+    gap: 10%;
+    padding: 15px;
+    display: flex;
+    font-family: Lato;
+    font-size: 14px;
+    justify-content: space-between;
+  }
+  .flightResultHeaderDivider2 {
+    width: 35%;
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .flightStartToEnd {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .flightStart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .flightEnd {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bLR {
+    font-weight: 700;
+    font-family: Lato;
+    font-size: 14px;
+  }
+  .verticalLine {
+    position: absolute;
+    width: 1px;
+    height: 30%;
+    background: grey;
+    top: 30%;
+  }
+  .border {
+    border-right: 1px solid #667085;
+  }
+  .departurePassengersCabin {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    justify-content: space-between;
+  }
+  .departures {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .passenger {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cabin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .flightdeparture {
+    color: #667085;
+    font-size: 12px;
+  }
+  .modifySearch {
+    background-color: #0088ff;
+    padding: 12px;
+    width: auto;
+    height: 33px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  .modifySearch:hover {
+    background-color: white;
+    box-shadow: rgba(0, 136, 255, 0.2) 0px 2px 8px 0px;
+    padding: 12px;
+    width: auto;
+    height: 33px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #0088ff;
+    border: 1px solid #0088ff;
+    cursor: pointer;
+  }
+  .flightDate {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Lato";
+  }
+  

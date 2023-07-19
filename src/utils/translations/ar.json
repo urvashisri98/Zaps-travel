@@ -1,0 +1,99 @@
+{
+    "login": {
+        "loginTitle": "تسجيل الدخول",
+        "loginMetaTitle": "الرجاء تسجيل الدخول للمتابعة",
+        "InputTitleMobile": "رقم الهاتف المحمول",
+        "placeholderMobile": "أدخل رقم الهاتف المتحرك",
+        "InputTitleEmailId": "عنوان الايميل",
+        "placeholderEmailId": "أدخل معرف البريد الإلكتروني",
+        "InputTitlePassword": "كلمة المرور",
+        "placeholderPassword": "أدخل كلمة المرور",
+        "continue": "يكمل",
+        "bottomTitle1": "بالمتابعة ، فإنك توافق على رحلات Zap ",
+        "bottomTitle2": "سياسة الخصوصية",
+        "bottomTitle3": "شروط الاستخدام.",
+        "forgotPassword": "هل نسيت كلمة السر",
+        "dontHaveAccount": "ليس لديك حساب؟",
+        "registerHere": "سجل هنا"
+    },
+    "signup": {
+        "registrationTitle": "تسجيل",
+        "registrationMetaTitle": "الرجاء إدخال المعلومات لإنشاء حساب",
+        "InputTitleMobile": "رقم الهاتف المحمول",
+        "placeholderMobile": "أدخل رقم الهاتف المتحرك",
+        "InputTitleFirstName": "الاسم الأول",
+        "placeholderFirstName": "أدخل الاسم الأول",
+        "InputTitleLastName": "اسم العائلة",
+        "placeholderLastName":"إدخال اسم آخر",
+        "InputTitleEmailId": "عنوان الايميل",
+        "placeholderEmailId": "أدخل معرف البريد الإلكتروني",
+        "registerButton": "يسجل",
+        "backToLoginButton": "العودة إلى تسجيل الدخول"
+    },
+    "otp": {
+        "otpTitle": "OTP",
+        "otpMetaTitle": "الرجاء إدخال كلمة المرور لمرة واحدة التي تم إرسالها إلى رقم هاتفك",
+        "otpMetaTitle2": "+91****482",
+        "expireIn": "تنتهي الصلاحية",
+        "time": "04:59",
+        "didNotGetOtp": "لم تحصل على OTP؟",
+        "resendNow": "إعادة الإرسال الآن",
+        "submit": "يُقدِّم",
+        "changeNumber": "تغيير رقم",
+        "changeEmailId": "تغيير معرف البريد الإلكتروني"
+    },
+    "registration": {
+        "registrationTitle": "تسجيل",
+        "registrationMetaTitle": "الرجاء إدخال المعلومات لإنشاء حساب",
+        "InputTitleEmailId": "عنوان الايميل",
+        "placeholderEmailId": "أدخل معرف البريد الإلكتروني",
+        "InputTitleFirstName": "الاسم الأول",
+        "placeholderFirstName": "أدخل الاسم الأول",
+        "InputTitleLastName": "اسم العائلة",
+        "placeholderLastName":"إدخال اسم آخر",
+        "InputTitleMobile": "رقم الهاتف المحمول",
+        "placeholderMobile": "أدخل رقم الهاتف المتحرك",
+        "InputTitlePassword": "كلمة المرور",
+        "placeholderPassword": "أدخل كلمة المرور",
+        "InputTitleConfirmPassword": "تأكيد كلمة المرور",
+        "placeholderConfirmPassword": "أدخل تأكيد كلمة المرور",
+        "registerButton": "يسجل",
+        "backToLoginButton": "العودة إلى تسجيل الدخول"
+    },
+    "validations": {
+        "signup/login": {
+            "emailRequired": "البريد الالكتروني مطلوب",
+            "validEmail": "بريد إلكتروني صالح",
+            "phoneNumberRequired": "رقم الهاتف مطلوب",
+            "validPhoneNumber": "أدخل رقم هاتف صالح",
+            "firstNameRequired": "الإسم الأول مطلوب",
+            "lastNameRequired": "إسم العائلة مطلوب",
+            "minFirstNameLength": "يجب أن يحتوي الاسم الأول على حرف واحد على الأقل",
+            "maxFirstNamelength": "يجب ألا يتجاوز الاسم الأول أكثر من 20 حرفًا",
+            "minLastNameLength": "يجب أن يحتوي اسم العائلة على حرف واحد على الأقل",
+            "maxLastNamelength": "يجب ألا يتجاوز الاسم الأخير أكثر من 20 حرفًا",
+            "validFirstName": "يجب أن يحتوي الاسم الأول على أحرف أبجدية فقط",
+            "validLastName": "يجب أن يحتوي الاسم الأخير على أبجديات فقط",
+            "passwordRequired": "كلمة المرور مطلوبة",
+            "validPassword": "يجب أن تتكون كلمة المرور من 8 أحرف وأن تحتوي على الأقل على حرف كبير واحد وحرف صغير وحرف خاص واحد",
+            "passwordMustMatch": "يجب أن تتطابق كلمات المرور"
+        }
+    },
+    "header":{
+        "customerSupport":"دعم العملاء",
+        "faq":"التعليمات",
+        "login/signup":"الدخول التسجيل فى الموقع"
+    },
+    "viewPage":{
+        "helpingOthers":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "live&travel":"العيش والسفر",
+        "specialOfferToSuitYou":"عرض خاص يناسب خطتك"
+    },
+    "subscribeLetter":{
+        "getTheLatestNewsAndOffers":"احصل على آخر الأخبار والعروض",
+        "subscribeToOurNewsletter":"اشترك في نشرتنا الإخبارية",
+        "subscribe":"يشترك",
+        "enterEmailId":"أدخل معرف البريد الإلكتروني الخاص بك"
+
+    }
+}

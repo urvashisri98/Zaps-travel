@@ -1,0 +1,111 @@
+.openBox {
+    border: 1px solid #d0d5dd;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-start;
+    padding: 28px;
+    font-size: 14px;
+    gap: 31px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .ticketSuitableFlight {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .suitableFlight {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+  
+  .cards {
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 35%;
+    height: 414px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  
+  .cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 35%;
+    height: 414px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .lightMoney {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .light {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+  
+  .Dashed {
+    height: 2px;
+    background-image: linear-gradient(
+      90deg,
+      #d0d5dd,
+      #d0d5dd 75%,
+      transparent 75%,
+      transparent 100%
+    );
+    background-size: 18px 3px, 100% 3px;
+    border: none;
+  }
+  .priceCss {
+    color: #0b5a5f;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .select {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #aef1f5;
+    border: none;
+    border-radius: 5px;
+    color: #0b5a5f;
+    font-size: 14px;
+  }
+  .flightContentCardBody {
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cardsContainer {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  .allHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .subHeader {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+  

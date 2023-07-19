@@ -1,0 +1,109 @@
+.header-card {
+    height: 66px;
+    width: inherit;
+    display: inline-flex;
+}
+
+.header-logo {
+    margin-top: 8px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header-logo-icon {
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+    background: 50% / cover no-repeat;
+}
+
+.header-items {
+    margin-right: 150px;
+    height: 36px;
+    margin-top: 15px;
+    display: inline-flex;
+    gap: 16px;
+    margin-left: 595px;
+    color: #344054;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customer-support {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}    
+
+.faq {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.country-dropdown {
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    width: 129px;
+    height: 33px;
+    display: flex;
+    gap: 8px;
+    color:  #344054;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.flag {
+    width: 16px;
+    height: 12px;
+    margin: 8px 0px 8px 8px;
+}
+
+.country-dropdown-divider {
+    width: 1px;
+    height: 14px;
+    background: #DDD;
+    margin: 8px 0px;
+}
+
+.language {
+    margin: 8px 0px;
+}
+
+.currency {
+    margin: 8px 0px;
+}
+
+.arrow-down-country-dropdown {
+    margin: 10px 8px 8px 0px;
+}
+
+.login {
+    width: 125px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login-icon {
+    margin: 9px 8px 8px 8px;
+}
+
+.login-text {
+    color: #344054;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}

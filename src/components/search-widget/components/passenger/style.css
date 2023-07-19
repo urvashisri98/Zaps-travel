@@ -1,0 +1,223 @@
+.card-passenger {
+    width: 600px;
+    height: 255px;
+    border-radius: 16px;
+    margin-top: -11px;
+    margin-left: -400px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    z-index: 1;
+}
+
+.card-passenger-enlarge {
+    width: 600px;
+    height: 255px;
+    border-radius: 16px;
+    margin-top: -11px;
+    margin-left: -224px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+    z-index: 1;
+}
+
+.card-content {
+    padding: 16px 16px 16px 16px;
+}
+
+.card-content .section-1 {
+    width: 307px;
+    height: 59px;
+}
+
+.card-content .section-1 .text{
+    height: 19px;
+    color: #344054;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.card-content .section-1 .list-numbers{
+    height: 24px;
+    margin-top: 16px;
+    display: flex;
+    gap: 12.5px;
+}
+
+.non-active-valid{
+    border-radius: 8px;
+    background: #F5F6F6;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    color: #344054;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.non-active-invalid{
+    border-radius: 8px;
+    background: gray;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    color: #344054;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+}
+
+
+.card-content .section-1 .list-numbers .number .active{
+    border-radius: 8px;
+    background: #08F;
+    color: #F5F6F7;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.card-content .section-2 {
+    width: 580px;
+    height: 79px;
+    margin-top: 24px;
+    display: flex;
+    gap: 25px;
+}
+
+.card-content .section-2 .content-1{
+    width: 272px;
+    height: 79px;
+}
+
+.card-content .section-2 .content-1 .text{
+    height: 19px;
+    color: #344054;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.card-content .section-2 .content-1 .list-numbers{
+    height: 24px;
+    margin-top: 16px;
+    display: flex;
+    gap: 12.5px;
+}
+
+/* .card-content .section-2 .content-1 .list-numbers .number .non-active{
+    border-radius: 8px;
+    background: #F5F6F6;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    color: #344054;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+} */
+
+.card-content .section-2 .content-1 .list-numbers .number .active{
+    border-radius: 8px;
+    background: #08F;
+    color: #F5F6F7;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.card-content .section-2 .content-2{
+    width: 270px;
+    height: 79px;
+}
+
+.card-content .section-2 .content-2 .text{
+    height: 19px;
+    color: #344054;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.card-content .section-2 .content-2 .list-numbers{
+    height: 24px;
+    margin-top: 16px;
+    display: flex;
+    gap: 12.5px;
+}
+
+/* .card-content .section-2 .content-2 .list-numbers .number .non-active{
+    border-radius: 8px;
+    background: #F5F6F6;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    color: #344054;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+} */
+
+.card-content .section-2 .content-2 .list-numbers .number .active{
+    border-radius: 8px;
+    background: #08F;
+    color: #F5F6F7;
+    width: 27px;
+    height: 24px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.errors {
+    width: 552px;
+    height: 30px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.travellers-card-error {
+    margin-top: -10px;
+    margin-left: -40px
+}
+
+.card-content .section-3 {
+    width: 552px;
+    height: 33px;
+    margin-top: 12px;
+}
+
+.card-content .section-3 .button {
+    width: 68px;
+    height: 33px;
+    margin-left: 484px;
+    border-radius: 12px;
+    border: 1px solid #08F;
+    background: #FFF;
+}
+
+.card-content .section-3 .button .text{
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    cursor: pointer;
+}

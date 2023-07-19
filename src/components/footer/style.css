@@ -1,0 +1,148 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 329px;
+    background: #373A40;
+}
+
+.footer-container .content {
+    margin-top: 48px;
+    height: 133px;
+    display: flex;
+    gap: 158px;
+    margin-left: 150px;
+}
+
+.footer-container .content .logo{
+    width: 130px;
+    height: 133px;
+    z-index: 100;
+}
+
+.footer-container .content .logo .logo-icon{
+    width: 130px;
+    height: 65px;
+    background: 50% / cover no-repeat;  
+    cursor: pointer;
+}
+
+.footer-container .content .need-help {
+    width: 195px;
+}
+
+.footer-container .content .our-services {
+    width: 175px;
+}
+
+.footer-container .content .follow-us-on {
+    width: 116px;
+}
+
+.footer-container .content .need-help .heading{
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.footer-container .content .need-help .contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-container .content .need-help .contact-list .contact{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.69;
+}
+
+.footer-container .content .need-help .contact-list .contact .highlight {
+    color: #0088FF
+}
+
+.footer-container .content .our-services .heading{
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.footer-container .content .our-services .services-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-container .content .our-services .services-list .service{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.69;
+    cursor: pointer;
+}
+
+.footer-container .content .follow-us-on .heading{
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.footer-container .content .follow-us-on .social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+
+.footer-container .content .follow-us-on .social-icons .social-icon{
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-container .break {
+    margin-top: 48px;
+    width: 1140px;
+    height: 1px;
+    background: #555;
+    margin-left: 150px;
+}
+
+.footer-container .copyright {
+    height: 52px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-container .copyright .text{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-footer {
+    background-color: yellow;
+}

@@ -1,0 +1,60 @@
+.button-background {
+    display: flex;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-left: 24px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color, #D0D5DD);
+    background: #FFF;
+    color: var(--subheading, #525A6A);
+    /* Text md/Regular */
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+}
+
+.button-background:hover{
+    background: #EDF7FF;
+    color:  #08F;
+}
+
+
+.name-input {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    background: var(--white, #FFF);
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+
+}
+
+label {
+    color: var(--gray-700, #344054);
+    /* Text sm/Medium */
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+h3 {
+    color: var(--heading, #344054);
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}

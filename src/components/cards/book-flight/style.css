@@ -1,0 +1,244 @@
+.overallFlight {
+    display: flex;
+    flex-direction: column;
+}
+.filterFlightDetails {
+    border: 1px solid #d0d5dd;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 25px 16px 25px 16px;
+}
+.filterFlightDetails.open {
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px; /* Adjust the color as needed */
+}
+.Airlines {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .airlinesDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .flightNameCode {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .flightName {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .flightNameQP {
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+  }
+  .departureDurationArrival1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .filterFlightDetailsDeparture {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+  }
+  .time {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .place {
+    font-size: 12px;
+    font-weight: 400;
+    color: #667085;
+    cursor: pointer;
+  }
+  .duration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #667085;
+    font-size: 14px;
+    gap: 5px;
+  }
+  .timming {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+  }
+  .planeImage {
+    display: flex;
+    align-items: center;
+  }
+  .stoppage {
+    color: #1dac08;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .tooltipclassforBaggage {
+    background-color: #344054;
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 239px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Lato";
+    margin: 0px;
+  }
+  .tooltipclassforBaggage::after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  .baggageAllowance {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .baggageAllowanceOption {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .baggageswithImage {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .Baggage {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .arrivalTime {
+    display: flex;
+    gap: 25px;
+  }
+  .arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    gap: 4px;
+  }
+  .bookFlight {
+    background-color: #0088ff;
+    padding: 8px;
+    width: auto;
+    height: 33px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  .bookFlight:hover {
+    background-color: white;
+    float: left;
+    padding: 7px;
+    width: auto;
+    height: 33px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #0088ff;
+    border: 1px solid #0088ff;
+    cursor: pointer;
+  }
+  .flightSeatPrice {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .totalPrice .tooltip:hover {
+    cursor: pointer;
+  }
+  .total {
+    display: flex;
+    color: #667085;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .chargesText {
+    color: #d0d5dd;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .charges {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fareCharges {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .chargesShow {
+    display: flex;
+    flex-direction: column;
+  }
+  .tooltipclassFare {
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+  }
+  .tooltipclass {
+    background-color: #344054;
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 300px;
+    height: fit-c0ntent;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: Lato;
+  }
+  .totalPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .totalCheckPrice {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+  }
+  .dividerImage {
+    border: 1px;
+  }
+  .flightDetails {
+    color: #0088ff;
+    cursor: pointer;
+  }

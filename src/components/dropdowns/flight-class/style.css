@@ -1,0 +1,81 @@
+.flight-class {
+    height: 55px;
+    width: inherit;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #D0D5DD;
+    border-bottom: none;
+    background: #FFF;
+    display: flex;
+    cursor: pointer;
+}
+
+.seat-icon {
+    height: 16px;
+    width: 16px;
+    margin: 16px 8px 12px 8px;
+    align-items: center;
+}
+
+.flight-class-dropdown {
+    height: 17px;
+    width: calc(100% - 40px);
+    margin: 18px 8px 18px 8px;
+    background: #FFF;
+    display: flex;
+}
+
+.dropdown-value{
+    height: 17px;
+    width: calc(100% - 13px);
+    color: #222936;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.flight-class-dropdown-icon {
+    height: 16px;
+    width: 16px;
+    color: #344054;
+    margin-right: 8px;
+    margin-left: auto;
+}
+
+.flight-class-options-group {
+    position: absolute;
+    width: calc(100% - 32px);
+    height: 156px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 55px;
+    overflow: hidden;
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 16px 16px;
+}
+
+.flight-class-option {
+    width: calc(100%);
+    height: 33px;
+    color: #344054;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+
+.flight-class-option:hover {
+    color: #0088FF;
+    border-radius: 4px;
+    background: #EAF4FD;
+}
+
+.option-text {
+    width: calc(100%);
+    height: 17px;
+    margin: 8px;
+}

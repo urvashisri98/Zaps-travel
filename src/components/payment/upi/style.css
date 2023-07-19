@@ -1,0 +1,107 @@
+.Upi-input {
+    width: 394px;
+    margin-left: 50px;
+}
+
+.Upi-button {
+    display: flex;
+    width: 394px;
+    padding: 12px 12px 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    border: #FFFFFF;
+background: var(--theme, #08F);
+color: var(--white, #FFF);
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+margin-top: 44px;
+
+}
+
+.upi-qr-container {
+    position: relative;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+.upi-qr-container img {
+    width: 100%;
+    height: auto;
+}
+
+.upi-qr-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 6px;
+    background: #08F;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+border: none;
+    display: inline-flex;
+    padding: 12px 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.upi-payment-request-text{
+    color: var(--subheading, #525A6A);
+font-size: 14px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.upi-or-text{
+    display: flex;
+width: 20.947px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--heading, #344054);
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.upi-continue-text{
+    display: flex;
+    width: 394px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #525A6A;
+font-size: 12px;
+font-family: Lato;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+.upi-scan-qr-text{
+    display: flex;
+width: 88.602px;
+flex-direction: column;
+flex-shrink: 0;
+color: #000;
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+

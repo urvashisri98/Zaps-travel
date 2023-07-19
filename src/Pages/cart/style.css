@@ -1,0 +1,247 @@
+
+.cart-text-bold {
+    color: var(--heading, #344054);
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .cart-text-regular{
+    color: var(--light-color, #667085);
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .cart-text-alignend{
+    color: var(--theme, #08F);
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: auto;
+  }
+  .cart-container-style{
+    border-radius: 10px;
+    border: 1px solid var(--border-color, #D0D5DD);
+    background: #FFF;
+  }
+  .cart-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .stoppage{
+    color: #1DAC08;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .planeImage{
+    display: flex;
+    align-items: center;
+  }
+  .text-baggage{
+    color: #667085;
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  
+  .text-qa{
+    color: #667085;
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  .time{
+    font-weight: 600;
+    font-family: Lato;
+    font-size: 16px;
+  }
+  .place{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Lato;
+    color: #667085;
+  }
+  .non-refundable{
+    display: flex;
+    flex-direction: row;
+  }
+  .direction-row{
+    display: flex;
+    flex-direction: row;
+  }
+  .direction-column{
+    display: flex;
+    flex-direction: column;
+  }
+  .changable-fee{
+    color: var(--heading, #344054);
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+  .non-refundable{
+    color: var(--light-color, #667085);
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  }
+  .fare-container{
+    border-radius: 10px;
+  border: 1px solid var(--border-color, #D0D5DD);
+  background: #FFF;
+  align-items: flex-start;
+  }
+  
+  .fare-rule{
+    color: var(--heading, #344054);
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .cancel-rule{
+    color: var(--theme, #08F);
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .fare-rule-container{
+    display: flex;
+  align-items: flex-start;
+  }
+  .fare-top-container{
+    display: flex;
+    padding: 1px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 239px;
+  }
+  .fare-medium-text-black{
+    color: var(--heading, #344054);
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  .button-style{
+    display: flex;
+  width: 100%;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  font-family: Lato;
+  background: var(--theme, #08F);
+  text-transform:lowercase;
+  }
+  .fair-detail{
+    display: flex;
+  width: 174.738px;
+  padding: 16px;
+  margin-top: 50px;
+  margin-left: -15px;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 8px;
+  }
+  .fair-detail-text{
+    color: var(--heading, #344054);
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .css-z7uhs0-MuiStepConnector-line {
+    display: block;
+    border-color: #0a10e1;
+    border-top-style: solid;
+    border-top-width: 1px;
+  }
+  .legroom-card{
+    display: flex;
+    width: 536px;
+    padding: 16px 16px 16px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 10px;
+  background: #FFF;
+  }
+  â€‹
+  .legroom-text{
+    color: var(--heading, #344054);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  â€‹
+  .legroom-seat-text{
+    color: var(--subheading, #525A6A);
+  font-size: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .container-plain-background{
+    display: flex;
+  width: 668px;
+  height: 730px;
+  padding: 16px;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 1px solid var(--border-color, #D0D5DD);
+  background: #E8F4FF;
+  }
+  
+  .container-legroom_center{
+    display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  }
+  
+  
+  .containerRoot {
+    
+   
+  }
+  .main-container{
+    padding: 50px 100px
+  }

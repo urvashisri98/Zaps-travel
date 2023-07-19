@@ -1,0 +1,355 @@
+.flightBookingContainer {
+  display: flex;
+  padding: 0px 100px 40px 100px;
+  gap: 15px;
+  font-family: "Lato";
+}
+
+.flightBookingDetailRightCorner {
+  cursor: pointer;
+  cursor: pointer;
+  color: #525a6a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flightBookingDivider1 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  font-family: "Lato";
+  padding: 15px;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.flightBookingDivider2 {
+  width: 75%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+  margin-top: 13px;
+}
+
+.flightBookingDetail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.selectedOption {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #d0d5dd;
+  display: flex;
+  gap: 10px;
+}
+
+.selectedOption:hover {
+  background-color: #e8f4ff;
+  border: 1px solid #0088ff;
+}
+
+.selectedOptionSelected {
+  background-color: #e8f4ff;
+  border: 1px solid #0088ff;
+}
+
+.flightBookingDetailLeftCorner {
+  display: flex;
+  gap: 10px;
+}
+
+.flightBookingDivider2.open {
+  padding-top: 15px;
+}
+
+.flightBookingDivider2.closed {
+  padding-top: 0;
+}
+
+.Airlines {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flightPrice {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.moneyIcon {
+  display: flex;
+}
+
+.flightSeat {
+  color: #ff2828;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flightSeatOffer {
+  color: #46991a;
+  font-size: 14px;
+}
+
+.selectedItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.airlinesDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.flightNameCodeDetails {
+  color: #0088ff;
+  cursor: pointer;
+}
+
+.TotalFlight {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Lato";
+}
+
+.showAll {
+  color: #0088ff;
+}
+
+.stops {
+  display: flex;
+  font-family: "Lato";
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.airlinesOptions {
+  display: flex;
+  font-family: "Lato";
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.oneWayPrice {
+  display: flex;
+  font-family: "Lato";
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.tripDuration {
+  display: flex;
+  font-family: "Lato";
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.refundStatus {
+  display: flex;
+  font-family: "Lato";
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.stopsIcon {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 14px;
+  color: #0088ff;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.checkBoxOptions {
+  display: flex;
+  gap: 10px;
+  align-items:self-end;
+}
+
+.checkBoxOptionsDeparture {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.13em solid#cfcfcf;
+  border-radius: 30%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #0088ff;
+  /* Windows High Contrast Mode */
+  background-color: transparent;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.showDetailsOneWay {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.startEnd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.earlyMorning {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.midnight {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.crossImage {
+  height: 10px;
+  max-height: 10px;
+  width: 10px;
+  gap: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .flightBookingContainer {
+    display: flex;
+    padding: 50px 130px 130px 130px;
+    gap: 15px;
+    font-family: "Lato";
+  }
+  .filterFlightDetails {
+    border: 1px solid #d0d5dd;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 14px;
+  }
+  .Airlines {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+.flightBookingDivider0 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+.stoppage {
+  color: #1dac08;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.timmingBaggage {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.timmingBaggageAvailable {
+  display: flex;
+  padding-top: 10px;
+  gap: 15px;
+}
+
+.timming {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.departuredTime {
+  display: flex;
+  flex-direction: column;
+}
+
+.morningFlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 37%;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  height: 90px;
+  justify-content: center;
+  padding: 8px;
+}
+
+.flightsOnTime {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.flightTimming {
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.flightTimmingPrice {
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: 700;
+}

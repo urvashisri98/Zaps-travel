@@ -1,0 +1,242 @@
+.modify-search-container {
+    width: 1140px;
+    margin: 0px 150px 0px 150px;
+    border-radius: 5px;
+    background: #FFF;
+    backdrop-filter: blur(8px);
+}
+
+.modify-search-header {
+    margin: 0px 30px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modify-search-title {
+    margin-top: 30px;
+    color: #344054;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.modify-search-close-icon {
+    width: 24px;
+    height: 24px;
+    color: #344054;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.section2-flight {
+    width: 1140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0px 8px 8px 8px;
+}
+
+.section2-flight .content1 {
+    width: 1080px;
+    height: 33px;
+    padding: 30px 30px 0px 30px;
+    display: flex;
+}
+
+.section2-flight .content1 .radio-button-group {
+    width: 986px;
+    height: 33px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.section2-flight .content2 {
+    width: 1080px;
+    height: 112px;
+    margin-top: 24px;
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+.checkbox-group {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    width: 120px;
+    height: 33px;
+    display: inline-flex;
+    gap: 4px;
+}
+
+.checkbox-text {
+    color: #344054;
+    font-family: 'Lato', sans-serif;;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-left: 28px;
+}
+
+.checkbox-group input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkbox-icon {
+    position: absolute;
+    top: 6px;
+    height: 16px;
+    width: 16px;
+    border: solid #B8BEC4;
+    background-color: white;
+}
+
+.checkbox-group input:checked ~ .checkbox-icon {
+    background-color: #0088FF;
+    border: none;
+}
+
+.checkbox-icon:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-group input:checked ~ .checkbox-icon:after {
+    display: block;
+}
+
+.checkbox-group .checkbox-icon:after {
+    left: 5px;
+    bottom: 4px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.radio-group {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    width: 110px;
+    height: 33px;
+    display: inline-flex;
+    gap: 4px;
+    margin-left: 4px;
+  }
+
+.radio-text {
+    color: #344054;
+    font-family: 'Lato', sans-serif;;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 28px;
+    margin-top: 6px;
+}
+  
+.radio-group input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-icon {
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    height: 14px;
+    width: 14px;
+    background: #fff;
+    border: 2px solid #B8BEC4;
+    border-radius: 50%;  
+}
+
+.radio-group input:checked ~ .radio-icon {
+    margin-top: 2px;
+    background-color: #0088FF;
+    border: none;
+}
+
+.radio-icon:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-group input:checked ~ .radio-icon:after {
+    display: block;
+}
+
+.radio-button-group input:checked ~ .radio-label-background {
+    display: block;
+}
+
+.radio-group .radio-icon:after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #eeeeee;
+}
+
+.radio-button-group .radio-label-background:after {
+   
+    background: yellow;
+}
+
+
+.radio-label-background {
+    position: relative;
+    cursor: pointer;
+    width: 110px;
+    height: 33px;
+    display: inline-flex;
+    border-radius: 6px;
+    background-color: white !important;
+}
+
+.user-info {
+    height: 112px;
+    width: 200px;
+    position: relative;
+}
+
+.user-info-enlarge {
+    height: 112px;
+    width: 376px;
+    position: relative;
+}
+
+.section2-flight .content2 .search-flight-button {
+    width: 104px;
+    height: 104px;
+    border-radius: 106px;
+    background: #08F;
+    margin-top: 4px;
+    display: flex;
+}
+
+.section2-flight .content2 .search-flight-button .search-icon {
+   width: 40px;
+   height: 40px;
+   color: #fff;
+   margin: 30px 30px;
+}

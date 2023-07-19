@@ -1,0 +1,65 @@
+.travel-date {
+    width: 155px;
+    height: 112px;
+    border-radius: 12px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+.travel-date-content1 {
+    width: 132px;
+    height: 18px;
+    margin: 20px 16px 0px 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.travel-date-title {
+    height: 18px;
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.travel-date-calendar-icon {
+    width: 18px !important;
+    height: 18px !important;
+    color: #344054 !important;
+    margin-left: auto;
+}
+
+.travel-date-content2 {
+    width: 130px;
+    height: 29px;
+    margin: 4px 16px 0px 16px;
+    color: #344054;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.travel-date-text {
+    color: #344054;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.travel-date-text-normal{
+    display: flex;
+    gap: 16px;
+    margin: 7px 16px 0px 16px;
+    width: 120px;
+    height: 18px;
+    color: #667085;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.travel-date-day {
+    width: 130px;
+    height: 17px;
+    margin: 4px 16px 16px 16px;
+    color: #344054;
+    font-size: 14px;
+}
